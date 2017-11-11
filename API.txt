@@ -1,0 +1,44 @@
+1)http://whitecode.in/demo/kiranashop/index.php/User/LoginCheck
+
+(userEmail,password,token)
+
+
+2)http://whitecode.in/demo/kiranashop/index.php/User/UserRegistration
+
+(userName,userEmail,userMobile,password,flatNumber,address)
+
+3)http://whitecode.in/demo/kiranashop/index.php/User/DisplayProduct
+
+(No parameter)
+
+4)http://whitecode.in/demo/kiranashop/index.php/Order/InsertOrder
+
+(userId,,amount,comment,product)
+here product is an array of productId,productUnit,productPrice,productQty
+
+5)http://whitecode.in/demo/kiranashop/index.php/Order/FetchDetailedOrder
+
+(orderId)
+
+6)http://whitecode.in/demo/kiranashop/index.php/Order/FetchIndivisualOrder
+
+(userId,limitNumber)
+
+
+http://whitecode.in/demo/kiranashop/index.php/User/UpdateUser
+
+(userId,userName,userMobile,flatNumber,address)		    	
+
+--------------------------------------admin api-------------------------------------------------
+7)admin orders list http://whitecode.in/demo/kiranashop/index.php/AdminFunction/seeOrders
+ (sortString,limitNumber)   .... sortstring= date in format 2017-01-20   or Pending/Success
+ 
+ 8)(admin update orders)   http://whitecode.in/demo/kiranashop/index.php/AdminFunction/updateOrderStatus
+ (orderId,status,userId(whose status is changed))
+ 
+ ---------------------------------user------------------------------------------------------------
+ 9)softdelketeorder    http://whitecode.in/demo/kiranashop/index.php/Order/DeleteOrder
+                        (orderId)
+                        
+10)forgot password     http://whitecode.in/demo/kiranashop/index.php/User/ForgotPassword      (1 success,0 failed, -1 mail id not found)
+                          (userEmail)

@@ -1,0 +1,11 @@
+[20-Jan-2017 03:04:05 America/Denver] PHP Fatal error:  Call to undefined function email_present() in /home6/whitecod/public_html/demo/kiranashop/application/controllers/User.php on line 14
+[20-Jan-2017 03:06:18 America/Denver] PHP Fatal error:  Call to undefined function email_present() in /home6/whitecod/public_html/demo/kiranashop/application/controllers/User.php on line 14
+[20-Jan-2017 03:41:01 America/Denver] PHP Fatal error:  Call to undefined function login_failed() in /home6/whitecod/public_html/demo/kiranashop/application/controllers/User.php on line 67
+[22-Jan-2017 23:42:26 America/Denver] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home6/whitecod/public_html/demo/kiranashop/application/models/Order_model.php on line 41
+[22-Jan-2017 23:54:49 America/Denver] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home6/whitecod/public_html/demo/kiranashop/application/models/Order_model.php on line 41
+[23-Jan-2017 02:03:17 America/Denver] PHP Parse error:  syntax error, unexpected ';', expecting '(' in /home6/whitecod/public_html/demo/kiranashop/application/controllers/Order.php on line 18
+[23-Jan-2017 03:36:02 America/Denver] PHP Fatal error:  Call to undefined method User_model::UpdateUser() in /home6/whitecod/public_html/demo/kiranashop/application/controllers/User.php on line 136
+[23-Jan-2017 03:36:18 America/Denver] PHP Fatal error:  Call to undefined method User_model::UpdateUser() in /home6/whitecod/public_html/demo/kiranashop/application/controllers/User.php on line 136
+[23-Jan-2017 03:37:44 America/Denver] PHP Fatal error:  Call to undefined method User_model::UpdateUser() in /home6/whitecod/public_html/demo/kiranashop/application/controllers/User.php on line 136
+[23-Jan-2017 03:40:00 America/Denver] PHP Fatal error:  Call to undefined method User_model::UpdateUser() in /home6/whitecod/public_html/demo/kiranashop/application/controllers/User.php on line 136
+[24-Jan-2017 03:37:35 America/Denver] PHP Fatal error:  Call to undefined function newOrder() in /home6/whitecod/public_html/demo/kiranashop/application/controllers/Order.php on line 27

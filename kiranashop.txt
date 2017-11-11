@@ -1,0 +1,9 @@
+1)
+Registration Url- http://whitecode.in/demo/kiranashop/index.php/User/UserRegistration
+
+Parameter- userName,	userEmail,	userMobile,	password,	flatNumber,	address,	token,	verification
+
+2)
+Login Url- http://whitecode.in/demo/kiranashop/index.php/User/LoginCheck
+
+Parameter- userEmail,password,token
